@@ -1,0 +1,509 @@
+.free-consultation-container1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.free-consultation-navbar-container {
+  top: 0;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  box-shadow: 5px 5px 10px 0px #b9b9b9;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0e0c18;
+}
+ 
+.free-consultation-container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+ 
+.free-consultation-navbar-interactive {
+  width: 1455px;
+  height: 170px;
+  display: flex;
+  padding: 0px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.free-consultation-image1 {
+  width: 174px;
+  height: 158px;
+}
+ 
+.free-consultation-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.free-consultation-links1 {
+  gap: 32px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+ 
+.free-consultation-buttons {
+  gap: 32px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}
+ 
+.free-consultation-link11 {
+  color: #ffffff;
+  display: flex;
+  font-size: 24px;
+  transition: 0.3s;
+  font-family: "Merriweather";
+  border-width: 0px;
+  text-decoration: none;
+  background-color: #000000;
+}
+ 
+.free-consultation-link11:hover {
+  color: #ffffff;
+  box-shadow: 5px 5px 10px 0px #000000;
+  background-color: #1c6a7e;
+}
+ 
+.free-consultation-link11:active {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.free-consultation-link21 {
+  color: #ffffff;
+  font-size: 24px;
+  transition: 0.3s;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: #000000;
+}
+ 
+.free-consultation-link21:hover {
+  box-shadow: 5px 5px 10px 0px #000000;
+  background-color: #1c6a7e;
+}
+ 
+.free-consultation-link21:active {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.free-consultation-link31 {
+  color: #ffffff;
+  font-size: 24px;
+  transition: 0.3s;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: #000000;
+}
+ 
+.free-consultation-link31:hover {
+  box-shadow: 5px 5px 10px 0px #000000;
+  background-color: #1c6a7e;
+}
+ 
+.free-consultation-link31:active {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.free-consultation-link41 {
+  color: #ffffff;
+  font-size: 24px;
+  transition: 0.3s;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: #000000;
+}
+ 
+.free-consultation-link41:hover {
+  box-shadow: 5px 5px 10px 0px #000000;
+  background-color: #1c6a7e;
+}
+ 
+.free-consultation-link41:active {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.free-consultation-link51 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  transition: 0.3s;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: #000000;
+}
+ 
+.free-consultation-link51:hover {
+  box-shadow: 5px 5px 10px 0px #000000;
+  background-color: #1c6a7e;
+}
+ 
+.free-consultation-link51:active {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.free-consultation-navlink {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  align-self: center;
+  transition: 0.3s;
+  font-family: "Merriweather";
+  border-width: 0px;
+  border-radius: var(--dl-layout-radius-buttonradius);
+  text-decoration: none;
+  background-color: #000000;
+}
+ 
+.free-consultation-navlink:hover {
+  box-shadow: 5px 5px 10px 0px #000000;
+  background-color: #1c6a7e;
+}
+ 
+.free-consultation-navlink:active {
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.free-consultation-burger-menu {
+  display: none;
+}
+ 
+.free-consultation-icon1 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.free-consultation-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+ 
+.free-consultation-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.free-consultation-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+ 
+.free-consultation-logo {
+  height: 3rem;
+}
+ 
+.free-consultation-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.free-consultation-icon3 {
+  width: 16px;
+  height: 16px;
+}
+ 
+.free-consultation-links2 {
+  gap: var(--dl-layout-space-unit);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.free-consultation-link12 {
+  text-decoration: none;
+}
+ 
+.free-consultation-link22 {
+  text-decoration: none;
+}
+ 
+.free-consultation-link32 {
+  text-decoration: none;
+}
+ 
+.free-consultation-link42 {
+  text-decoration: none;
+}
+ 
+.free-consultation-link52 {
+  text-decoration: none;
+}
+ 
+.free-consultation-link53 {
+  text-decoration: none;
+}
+ 
+.free-consultation-container3 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 231px;
+  display: flex;
+  box-shadow: 0px 5px 10px 0px #000000;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/7148317-1500w.jpg");
+  background-position: center;
+}
+ 
+.free-consultation-text1 {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+}
+ 
+.free-consultation-text2 {
+  display: inline-block;
+  font-family: "Merriweather";
+}
+ 
+.free-consultation-features {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-layout-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-layout-space-tenunits);
+  padding-left: var(--dl-layout-space-tripleunit);
+  padding-right: var(--dl-layout-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-layout-space-fiveunits);
+}
+ 
+.free-consultation-heading-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-fiveunits);
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.free-consultation-text3 {
+  text-align: center;
+  margin-bottom: var(--dl-layout-space-fourunits);
+}
+ 
+.free-consultation-section-separator1 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+ 
+.free-consultation-section-separator2 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+ 
+.free-consultation-section-separator3 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+ 
+.free-consultation-section-separator4 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-900);
+}
+ 
+.free-consultation-footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+ 
+.free-consultation-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-layout-size-maxcontent);
+  align-items: center;
+  padding-top: var(--dl-layout-space-tripleunit);
+  padding-left: var(--dl-layout-space-tripleunit);
+  padding-right: var(--dl-layout-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-layout-space-tripleunit);
+  justify-content: space-between;
+}
+ 
+.free-consultation-social-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+ 
+.free-consultation-icon5 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-layout-space-doubleunit);
+}
+ 
+.free-consultation-copyright-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.free-consultation-icon7 {
+  width: 24px;
+  height: 24px;
+  margin-right: var(--dl-layout-space-doubleunit);
+}
+ 
+@media(max-width: 1600px) {
+  .free-consultation-navbar-container {
+    background-color: #0d1121;
+  }
+  .free-consultation-image1 {
+    width: 150px;
+    height: 144px;
+  }
+}
+ 
+@media(max-width: 1280px) {
+  .free-consultation-navbar-interactive {
+    position: relative;
+  }
+  .free-consultation-desktop-menu {
+    display: none;
+  }
+  .free-consultation-burger-menu {
+    top: 74px;
+    right: 57px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    position: absolute;
+  }
+  .free-consultation-icon1 {
+    width: 28px;
+    height: 28px;
+  }
+}
+ 
+@media(max-width: 991px) {
+  .free-consultation-navbar-interactive {
+    position: relative;
+  }
+  .free-consultation-burger-menu {
+    top: 77px;
+    right: 79px;
+    position: absolute;
+  }
+  .free-consultation-icon1 {
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .free-consultation-navbar-interactive {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .free-consultation-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .free-consultation-heading-container {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .free-consultation-navbar-interactive {
+    padding: var(--dl-layout-space-unit);
+  }
+  .free-consultation-icon1 {
+    width: 24px;
+    height: 24px;
+  }
+  .free-consultation-mobile-menu {
+    padding: var(--dl-layout-space-unit);
+  }
+  .free-consultation-features {
+    padding-top: var(--dl-layout-space-fiveunits);
+    padding-bottom: var(--dl-layout-space-fiveunits);
+  }
+}
